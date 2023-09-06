@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+font-family: sans-serif;
+margin: 0%;
+background-color: rgb(199, 228, 218);
+}
+
+h1{ font-size: 3.0em;}
+h2{font-size: 2.0em;}
+h3{font-size: 1.5em;}
+p{font-size: 1em;}
+
+
+button{
+    background-color: aqua;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 15px;
+    border: 2px solid;
+    border box-shadow: 2px 2px 10px; 
+    
+}
+button:hover{
+    background-color: rgb(15, 81, 81);
+}
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+.imagenes{
+
+    height: 300PX;
+    width: 300PX;
+}
+
+.container.img{
+    border-radius: 100PX;
+}
+
+.Logo{
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+}
+.Barra{
+
+background-color: rgb(197, 239, 236);
+}
+
+header .Logo{
+    margin: 0;
+padding: 25px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header. nav{
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+ a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(10, 10, 10);
+}
+
+
+
+a:hover{
+    color: rgb(55, 122, 180);
+
+
+}
